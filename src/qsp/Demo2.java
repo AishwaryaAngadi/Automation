@@ -1,0 +1,15 @@
+package qsp;
+
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+public class Demo2 {
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		System.setProperty("webdriver.ie.driver","./drivers/IEDriverServer.exe");
+InternetExplorerDriver ie = new InternetExplorerDriver();
+Thread.sleep(2000);
+ie.close();
+	}
+
+}
